@@ -17,7 +17,7 @@ en_zona_peligrosa(Personaje) :-
 
 % Regla 4 (extra): mayor_edad/2
 mayor_edad(P1, P2) :-
-    edad(P1, E1),
+    edad(P1, E1),   
     edad(P2, E2),
     E1 > E2.
 
